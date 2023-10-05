@@ -4,6 +4,10 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    color: white;
+}
+
 .header {
     border: 5px solid aqua;
     height: 600px;
@@ -30,6 +34,7 @@ header {
     height: 200px;
     position: relative;
     left: 115px;
+    border-radius: 5px;
 }
 
 
@@ -42,6 +47,7 @@ header {
     height: 200px;;
     position: relative;
     left: 60px;
+    border-radius: 5px;
 }
 
 .header-div-div3 {
@@ -53,4 +59,22 @@ header {
     height: 200px;
     position: relative;
     left: 115px;
+}
+
+.header-div p {
+    position: relative;
+    top: 90px;
+}
+
+.color-gradient {
+    width: 450px;
+    border: 5px dotted blueviolet;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: gray;
+    background-image: linear-gradient(black, gray, white);
+    background-repeat: no-repeat;
 }
